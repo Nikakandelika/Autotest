@@ -66,3 +66,21 @@ print(links.button())
 
 brokenlinks = Demoqa("Битые ссылки")
 print(brokenlinks.button())
+
+#4
+class Car:
+    def __init__(self, colour, type, year):
+        self.colour = colour
+        self.type = type
+        self.year = year
+    def wound_up(self):
+        return "Автомобиль заведен"
+    def stopped(self):
+        return "Автомобиль заглушен"
+    def year(self, year_new):
+        self.year = self.year_new
+    def colour(self, colour_new):
+        self.colour = self.colour.new
+
+niva = Car("Синий", "Советская", "1995")
+print(niva.wound_up())
