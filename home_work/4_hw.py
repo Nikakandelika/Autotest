@@ -46,7 +46,23 @@ class Demoqa:
     def button(self):
         return f'Клик по кнопке {self.text}'
 
-textbox = Demoqa("Текст Бокc")
-
+textbox = Demoqa("Текст бокc")
 print(textbox.button())
 
+checkbox = Demoqa("Чек бокс")
+print(checkbox.button())
+
+radio_button = Demoqa("Радио кнопка")
+print(radio_button.button())
+
+webtables = Demoqa("Веб таблицы")
+print(webtables.button())
+
+buttons = Demoqa("Кнопки")
+print(buttons.button())
+
+links = Demoqa("Ссылки")
+print(links.button())
+
+brokenlinks = Demoqa("Битые ссылки")
+print(brokenlinks.button())
